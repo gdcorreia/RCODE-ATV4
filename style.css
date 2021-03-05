@@ -15,13 +15,16 @@ margin: 0;
 font-family: DotGothic16;
 font-size: 50px;}
 
-div.barra {display: block;
+nav {display: flex;
 background-color: yellow;
 width: 100%;
 height: 50px;
 font-family: Caveat;
 font-size: 2rem;
-text-align: center;}
+justify-content: space-around;
+}
+
+
 
 a.nac{text-decoration: none;
 color: black;}
@@ -29,53 +32,21 @@ color: black;}
 #itens{display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-justify-content: space-between;
+justify-content: space-around;
 ;}
 
-div.prod1{margin: 20px;}
+div.produto{margin: 30px;
+    border: 10px solid white;}
 
-div.prod1:hover{border: 10px solid black;
+div.produto:hover{border: 10px solid red;
 transition: 0.5s;}
 
-div.oi{font-weight: bolder;
+div.nomedojogo{font-weight: bolder;
 text-align: center;}
 
-div.prod2{margin: 20px;}
-
-div.prod2:hover{border: 10px solid black;
-    transition: 0.5s;}
-
-div.oioi{font-weight: bolder;
-text-align: center;}
-
-div.prod3{margin: 20px;}
-
-div.prod3:hover{border: 10px solid black;
-    transition: 0.5s;}
-
-div.oioioi{font-weight: bolder;
-    text-align: center;}
-
-div.prod4{margin: 20px;}
-
-div.prod4:hover{border: 10px solid black;
-    transition: 0.5s;}
-
-
-div.oioioioi{font-weight: bolder;
-    text-align: center;}
-
-.g1{width: 200px;
+.capadojogo{width: 200px;
 height: 200px;}
 
-.g2{width: 200px;
-    height: 200px;}
-
-    .g3{width: 200px;
-        height: 200px;}
-
-        .g4{width: 200px;
-            height: 200px;}
 
             div.ftt{font-family: Caveat;
             font-size: 1.7rem;
