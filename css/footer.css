@@ -1,0 +1,8 @@
+div.ftt{font-family: Caveat;
+    font-size: 1.7rem;
+    display: flex;
+    flex-direction: column;}
+
+    footer#ft{background-color: yellow;
+    width: 100%;
+height: 140px;}

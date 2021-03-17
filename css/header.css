@@ -1,0 +1,30 @@
+body{margin: 0;
+    padding: 0;}
+    
+    header.inicio{display: flex;
+    background-image: url(./img/ps.jpg);
+    width: 100%;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;}
+    
+    h1.loja{color: white;
+    margin: 0;
+    font-family: DotGothic16;
+    font-size: 50px;}
+    
+    nav {display: flex;
+    background-color: yellow;
+    width: 100%;
+    height: 50px;
+    font-family: Caveat;
+    font-size: 2rem;
+    justify-content: space-around;
+    }
+    
+    
+    
+    a.nac{text-decoration: none;
+    color: black;}
